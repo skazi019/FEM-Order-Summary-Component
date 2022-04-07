@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #f5f7ff;
+}
+
+body .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+body .wrapper .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  max-width: 90%;
+  max-height: auto;
+  width: 100%;
+}
+
+body .wrapper .container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-radius: 1.5rem;
+  max-width: 100%;
+  max-height: auto;
+  width: 100%;
+  height: auto;
+}
+
+body .wrapper .container .card .hero-content {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+}
+
+body .wrapper .container .card .hero-content .hero-image img {
+  border-radius: 1.5rem 1.5rem 0 0;
+  width: 100%;
+}
+
+body .wrapper .container .card .hero-content .title {
+  margin: 1.7rem 0 1.5rem 0;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+body .wrapper .container .card .description {
+  width: 80%;
+  text-align: center;
+  color: #7280a7;
+  margin: 0 0 2rem 0;
+  font-weight: 500;
+}
+
+body .wrapper .container .card .purchase {
+  width: 70%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 0 2rem 0;
+  background-color: #f5f7ff;
+  padding: .7rem 1rem;
+  border-radius: .5rem;
+}
+
+body .wrapper .container .card .purchase .pricing-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+body .wrapper .container .card .purchase .pricing-plan .price-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: .5rem;
+}
+
+body .wrapper .container .card .purchase .pricing-plan .price-plan .timeline {
+  font-weight: 900;
+}
+
+body .wrapper .container .card .purchase .pricing-plan .price-plan .price {
+  color: #7280a7;
+}
+
+body .wrapper .container .card .purchase .change-plan {
+  font-size: .5rem;
+  color: #3829e0;
+  text-decoration: underline;
+}
+
+body .wrapper .container .card .purchase .change-plan:hover {
+  color: #7280a7;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body .wrapper .container .card .payment {
+  margin: 0 0 2rem 0;
+  width: 80%;
+  height: auto;
+  background-color: #3829e0;
+  color: white;
+  text-align: center;
+  padding: .7rem 0;
+  border-radius: .7rem;
+  -webkit-box-shadow: 0 10px 20px rgba(156, 156, 156, 0.6);
+          box-shadow: 0 10px 20px rgba(156, 156, 156, 0.6);
+}
+
+body .wrapper .container .card .payment:hover {
+  background-color: #7280a7;
+  cursor: pointer;
+}
+
+body .wrapper .container .card .cancel-order {
+  color: #7280a7;
+  margin: 0 0 1.5rem 0;
+  font-weight: 700;
+}
+
+body .wrapper .container .card .cancel-order:hover {
+  color: black;
+  cursor: pointer;
+}
+
+body .wrapper .container .attribution {
+  margin: 2rem 0 0 0;
+}
+
+@media screen and (min-width: 375px) {
+  body .wrapper .container .card {
+    max-width: 350px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
